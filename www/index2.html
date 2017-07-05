@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+    <script src="main.js"></script>
+</head>
+<body style="margin:10px;">
+<ons-page>
+        
+    <ons-toolbar>
+    <div class="left">
+        <a href="index.html">戻る</a>
+    </div>
+    <div class="center">Carousel</div>
+    </ons-toolbar>
+    <ons-carousel swipeable overscrollable auto-scroll fullscreen>
+        <ons-carousel-item style="background-color:yellow;">
+        <section>
+            <p>Page 1</p>
+            <p>最初のページ</p>
+        </section>
+    </ons-carousel-item>
+    <ons-carousel-item style="background-color:cyan;">
+        <section>
+            <p>Page 2</p>
+            <p>次のページ</p>
+        </section>
+    </ons-carousel-item>
+    <ons-carousel-item style="background-color:orange;">
+        <section>
+            <p>Page 3</p>
+            <p>最後のページ</p>
+        </section>
+    </ons-carousel-item>
+</ons-page>
+</body>
+</html>
